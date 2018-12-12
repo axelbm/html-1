@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+
+	<title>Vente de matériel informatique</title>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+
+<body>
+	<header>
+		<h1>Vente de matériel informatique</h1>
+	</header>
+
+	<nav id="top-nav">
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="index.html#ordinateur">Ordinateur de bureau</a></li>
+			<li><a href="index.html#portable">Ordinateur portable</a></li>
+			<li><a href="#" class="selected">Contact</a></li>
+		</ul>
+	</nav>
+
+	<article id="contact">
+		<h2 id="ordinateur">
+			Contact
+			<img class="help" src="img/help.png" alt="help" title="Remplissez le formulaire pour nous contacter">
+		</h2>
+	
+		<form>
+			<fieldset>
+				<legend>Identifiant</legend>
+				<table>
+					<tr>
+						<td><label for="nom">Nom :</label></td>
+						<td><input type="text" id="nom"/></td>
+					</tr>
+					<tr>
+						<td><label for="prenom">Prenom :</label></td>
+						<td><input type="text" id="prenom"/></td>
+					</tr>
+				</table>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Selectionnez la marque de votre ordinateur</legend>
+
+				<span><input id="dell" type="checkbox" checked><label for="dell">Dell</label></span>
+				<span><input id="lenovo" type="checkbox" checked><label for="lenovo">Lenovo</label></span>
+				<span><input id="asus" type="checkbox"><label for="asus">ASUS</label></span>
+				<span><input id="hp" type="checkbox"><label for="hp">HP</label></span>
+				<span><input id="samsung" type="checkbox"><label for="samsung">Samsung</label></span>
+				<span><input id="acer" type="checkbox"><label for="acer">Acer</label></span>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Selectionnez la taille de votre ordinateur portable</legend>
+
+				<span><input id="10-12" type="radio" name="taille"><label for="10-12">10-12 pouce</label></span>
+				<span><input id="12-14" type="radio" name="taille"><label for="12-14">12-14 pouce</label></span>
+				<span><input id="14-16" type="radio" name="taille"><label for="14-16">14-16 pouce</label></span>
+				<span><input id="16-18" type="radio" name="taille"><label for="16-18">16-18 pouce</label></span>
+				<span><input id="18-20" type="radio" name="taille" checked><label for="18-20">18-20 pouce</label></span>
+			</fieldset>
+
+			<input type="button" value="Envoyer">
+		 </form>
+	</article>
+
+
+	<nav id="bottom-nav">
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="index.html#ordinateur">Ordinateur de bureau</a></li>
+			<li><a href="index.html#portable">Ordinateur portable</a></li>
+			<li><a href="#" class="selected">Contact</a></li>
+		</ul>
+	</nav>
+</body>
+
+</html>
